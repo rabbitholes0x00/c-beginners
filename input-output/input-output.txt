@@ -1,0 +1,75 @@
+# Input Output in C
+
+#A [output]
+Pada bahasa C ada 2 macam fungsi untuk menampilkan output yaitu `printf()` dan `puts()`
+
+##A1 [printf()] 
+`printf()` merupakan fungsi untuk menampilkan output ke layar komputer. Fungsi ini terdapat pada library `stdio.h`. diharuskan untuk menuliskan #include <stdio.h> di bagian atas program agar bisa menggunakan fungsi ini.
+
+###A1 [printf()] structure
+printf("format", ...);
+
+"format" adalah sebuah text(string) untuk ditampilkan.
+... akan berisi sebuah variabel/nilai untuk ditampilkan berdasarkan format yang diberikan pada text "format".
+
+###A1 [printf-example.c] code
+#include <stdio.h>
+int main(){
+    printf("Hello, ini adalah teks output\n");
+    printf("Nama saya %s\n", "Dian");
+    printf("Usia saya %d\n", 20);
+    return 0;
+}
+
+###A1 [printf()] symbols
+`printf()` menggunakan simbol untuk memformat data terentu, simbol tersebut biasa disebut 'format specifier'.
+
+Other Symbols:
+* %s - menampilkan nilai string
+* %c - menampilkan karakter
+* %s - menampilkan text(string)
+* %d - menampilkan desimal
+* %i - menampilkan bilangan desimal
+* %f - menampilkan bilangan pecahan
+* %o - menampilkan bilangan oktal
+* %x - menampilkan bilangan heksadesimal
+* \n - membuat baris baru
+* \t - membuat tabs
+
+##A2 [puts()]
+`puts()` merupakan fungsi untuk menampilkan output. `puts()` juga terdapat pada library `stdio.h` perbedaanya dengan `printf()` adalah `puts()` tidak memerlukan format. `puts()` akan selalu membuat baris baru. Jadi tidak perlu menggunakan simbol `\n` seperti `printf()`.
+
+###A2 [puts()] structure
+puts("Hello")
+
+"Hello" adalah text untuk ditampilkan kelayar
+
+###A2 [puts-example.c] code
+
+#include <stdio.h>
+int main(){
+    puts("Hello World");
+    puts("Nama Saya Dian");
+    
+    return 0;
+}
+
+###A2 [puts()] function
+`puts()` memiliki fungsi `putchar()` yang khusus untuk menampilkan satu karakter saja.
+
+### [putchar()] code
+#include <stdio.h>
+int main(){
+    putchar('A');
+
+    return 0;
+}
+
+#A [output] printf() vs puts()
+Q: Fungsi manakah yang harus saya pakai?
+A: Tergantung dari teks apa yang akan ditampilkan. apabila kita akan menampilkan text dan nilai atau variabel sebaiknya menggunakan `printf()` karena bisa membuat format, jika text yang biasa saja bisa pakai `puts()`.
+
+#B [input]
+Pada bahasa C ada 3 macam fungsi untuk menampilkan input yaitu `scanf()`, `gets()` dan `fgets()`
+
+
