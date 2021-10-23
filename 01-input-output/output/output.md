@@ -6,19 +6,23 @@ Pada bahasa C ada 2 macam fungsi untuk menampilkan output yaitu `printf()` dan `
 * `printf()` terdapat pada library `stdio.h`.  
 * `printf()` dapat dipanggil karena sudah diimport pada "#include <stdio.h>".
 
-## printf() components
+## printf() Components
+```c
 printf("format", ...);
-* "format" sebuah text(string) untuk ditampilkan.
-* ... berisi sebuah variabel/nilai untuk ditampilkan berdasarkan format yang diberikan pada text "format".
+// "format" sebuah text(string) untuk ditampilkan.
+// ... berisi sebuah variabel/nilai untuk ditampilkan berdasarkan format yang diberikan pada text "format".
+```
 
 ## puts()
 * `puts()` fungsi untuk menampilkan output. 
 * `puts()` terdapat pada library `stdio.h`.
 * `puts()` akan selalu membuat baris baru, tidak perlu menggunakan simbol `\n` seperti `printf()`.
 
-## puts() components
+## puts() Components
+```c
 puts("Hello")
-* "Hello" adalah text untuk ditampilkan kelayar
+// "Hello" adalah text untuk ditampilkan kelayar
+```
 
 ## output printf() vs puts()
 * `printf()` apabila ingin menampilkan text dan nilai atau variabel sebaiknya menggunakan karena bisa membuat format.
@@ -26,6 +30,7 @@ puts("Hello")
 
 ## symbols
 simbol digunakan untuk memformat data tertentu, simbol biasa disebut 'format specifier'
+```txt
 * %s - menampilkan nilai string
 * %c - menampilkan karakter
 * %s - menampilkan text(string)
@@ -36,3 +41,4 @@ simbol digunakan untuk memformat data tertentu, simbol biasa disebut 'format spe
 * %x - menampilkan bilangan heksadesimal
 * \n - membuat baris baru
 * \t - membuat tabs
+```

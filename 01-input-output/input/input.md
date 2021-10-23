@@ -6,10 +6,12 @@ Pada bahasa C ada 3 macam fungsi untuk menampilkan input yaitu `scanf()`, `gets(
 * `scanf()` memiliki format seperti fungsi `printf()`. 
 * `scanf()` format yang diberikan tergantung dari jenis tipe data apa yang ingin kita ambil. Misalnya mau mengambil angka maka kita bisa pakai `%d` atau `%i`.
 
+```c
 scanf("%s", &var);
-* "%s"
-* &
-* var
+// "%s"
+// &
+// var
+```
 
 Dalam menggunakan `scanf()` dianjurkan menggunakan simbol `&` sebelum nama variabel. simbol `&` berfungsi untuk mengambil alamat memori dari sebuah variabel. `scanf()` membutuhkan tempat untuk menyimpan nilai yang akan diinputkan. Karena itu kita memberikan simbol `&` di depan nama variabel untuk menentukan alamat memori yang akan digunakan oleh `scanf()`.
 
@@ -17,15 +19,20 @@ Dalam menggunakan `scanf()` dianjurkan menggunakan simbol `&` sebelum nama varia
 * `gets()` adalah fungsi untuk mengambil input dalam satu baris.
 * `gets()` tidak memerlukan format seperti `scanf()`.
 
+```c
 gets(var);
-* var
+// var
+```
+
 
 ## fgets()
 Ukuran buffer adalah batas ukuran panjang string yang diinputkan. `stdin` adalah sumber inputan dari keyboard. Inputan dapat diambil dari file dengan `fgets()` dengan memasukan pointer `FILE` pada `stdin`.
 
+```c
 fgets(var, size, stdin);
-* var
-* size
-* stdin
+// var
+// size
+// stdin
+```
 
 Menggunakan fungsi `sizeof()` untuk mengambil ukuran buffer dari variabel. Ukuran ini akan menjadi batas maksimum dari inputan.
