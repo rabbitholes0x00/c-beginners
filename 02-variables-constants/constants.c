@@ -1,24 +1,24 @@
 #include <stdio.h>
+// gcc constants.c -o constants; ./constants
+
 // #define
-#define OS 10 
-#define HOST 4.5 
-#define KERNEL 'L'
+#define NAME 'LIFZ' 
+#define GENDER 'M' 
+#define GPA 3.65
 
 int main(){
 	// const, types required
-	const double NAME = 3.14;
-	const char GENDER = 'P';
-	const int AGE = 11;
-
+	const double KERNEL = 5.140;
+	const char OS = 'KALI';
+	const int RESOLUTION = 1366;
 	// print #define
-	printf("isi konstanta SEPULUH adalah %i\n", SEPULUH);
-	printf("isi konstanta VERSI adalah %f\n", VERSI);
-	printf("isi konstanta JENIS_KELAMIN adalah %c\n", JENIS_KELAMIN);
-	
+	printf("NAME: %s\n", NAME);
+	printf("GENDER: %c\n", GENDER);
+	printf("GPA %.2f\n", GPA);
 	// print const
-	printf("isi konstanta PI adalah %f\n", PI);
-	printf("isi konstanta JENIS_KELAMIN adalah %c\n", JENIS_KELAMIN);
-	printf("isi konstanta VERSI adalah %i\n", VERSI);
+	printf("KERNEL: %f\n", KERNEL);
+	printf("OS: %c\n", OS);
+	printf("RESOLUTION: %d\n", RESOLUTION);
 }
 
 

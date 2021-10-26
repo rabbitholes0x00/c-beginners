@@ -1,22 +1,22 @@
 #include <stdio.h>
-
+// gcc variables.c -o variables; ./variables
 int main(){
-	// T x = v
 	// char[5] = l[1] i[2] f[3] z[4] + null('\0')[5]
-	char Name[5] = "LIFZ";
-	printf("Name = %s\n", Name);
+	char Name[5] = "LIFZ"; // OK
+	printf("Name: %s\n", Name);
 	
-	char name[] = "Mochammad";
-	printf("name = %s\n", name);
+	// T x[] = v
+	char name[] = "Mochammad"; // OK
+	printf("name: %s\n", name);
 	
-	char $middleName[] = "Alif";
-	printf("$middleName = %s\n", $middleName);
+	char $middleName[] = "Alif"; // camelCase
+	printf("$middleName: %s\n", $middleName);
 	
 	// char 1name[5] = "lifz"; // error
-	char last_name[] = "Kurniawan"; // snake case
-	printf("last_name = %s\n", last_name);
+	char last_name[] = "Kurniawan"; // snake_case
+	printf("last_name: %s\n", last_name);
 		
-	int age; // T x = v, y = v, one line same types
+	int age = 21, zip_code = 11270 ; // T x = v, y = v, one line same types
 	float gpa = 3.65;
-	printf("x = %d, y = %d, gpa = %.2f\n", x, y, gpa);
+	printf("age: %d, zip_code: %d, gpa: %.2f\n", age, zip_code, gpa);
 }
