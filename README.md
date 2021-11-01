@@ -12,7 +12,7 @@
 Advantages & Disadvantages in C 2021
 #### Advantages:
 * It is easy to understand
-* 2. Presence of many Libraries
+* Presence of many Libraries
 * Easy to write
 * Low cost
 * Fast execution speed
