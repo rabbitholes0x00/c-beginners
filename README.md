@@ -8,7 +8,7 @@
 * Total keywords in C: `32` 
 * Official sites: -
 
-## X, Advantages & Disadvantages
+## C, Advantages & Disadvantages
 Advantages & Disadvantages in C 2021
 #### Advantages:
 * It is easy to understand
