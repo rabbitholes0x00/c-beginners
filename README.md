@@ -1,30 +1,50 @@
 # README!
 * Name: `C`
-* Designed by: (author) at (location)
-* Developer:
-* First appeared:
-* Paradigm:
-* Typing and types discipline: static/dynamic and weak/strong
-* Package manager: 
-* Total keywords in X version(0.0.0): 
-* Official sites:
+* Designed by: `Dennis Ritchie` at `Bell Labs`
+* First appeared: `1972`
+* Paradigm:  `imperative (procedural)`, `structured`
+* Typing and types discipline: `static` and `weak`
+* Package manager: `conan`
+* Total keywords in C: `32` 
+* Official sites: -
 
 ## X, Advantages & Disadvantages
-Advantages & Disadvantages in X 20XX
-
+Advantages & Disadvantages in C 2021
 #### Advantages:
-
+* It is easy to understand
+* 2. Presence of many Libraries
+* Easy to write
+* Low cost
+* Fast execution speed
+* Portable
+* Easy debugging
+* Procedure Oriented Language
+* Speed of Compilation
+* Execution of algorithms and data structures
+* Dynamic memory allocation
 #### Disadvantages:
+* Lack of Object Orientation
+* Inefficient Memory Management
+* No Garbage Collection
+* Run-time checking
+* Concept of namespace is not present in C
+* Absence of Exception Handling
+* Lacks Constructor and Destructor
 
-## X, Installations & set $PATH
-Download at [title](link) and following this (title)[link] instructions
-$PATH `export PATH="something/bin:$PATH"`
+## C, Installations
+lorem ipsum dolor sit amet
 
-## X, Commands
---version, env, run, build, test, install, uninstall
+## C, Major Commands
+lorem ipsum dolor sit amet
 
 ## C, Code Structure
-Hello World!
+```c
+#include <stdio.h>
+
+int main(){
+	printf("Hello world!");
+}
+```
 
 ## C, Learning Sites
 * [Tutorial Pemrograman C untuk Pemula - Petani Kode](https://www.petanikode.com/tutorial/c/)
