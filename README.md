@@ -45,7 +45,9 @@ int main(){
 	printf("Hello world!\n");
 }
 ```
-
+## C, Concepts
+* [C Program Compilation Process - Source To Binary](https://hackthedeveloper.com/c-program-compilation-process)	
+* [Memory Layout Of A C Program](https://hackthedeveloper.com/memory-layout-c-program)
 ## C, Learning Sites
 * [Tutorial Pemrograman C untuk Pemula - Petani Kode](https://www.petanikode.com/tutorial/c/)
 * [C Programming Exercises, Practice, Solution - w3resource](https://www.w3resource.com/c-programming-exercises/)
